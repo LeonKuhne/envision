@@ -12,6 +12,8 @@ train on particle simulations and zooms out to predict higher order systems
 #### evolve (genetics) "survival of the fitest"
 - a fixed population of ai compete in rounds
 - each ai has an independent neural net
-- at the end of a round copies of successfull ai replace unsuccessfull ones
+- successfull ai replace unsuccessfull ones each round
+- unsuccessfull ai are more likely to mutate their neural configuration
 #### think (society)
-- tbd
+- continuing to learn while predicting
+- use computed average results as expected
