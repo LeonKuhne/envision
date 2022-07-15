@@ -1,19 +1,34 @@
 
-## what
-predict next frames using previous frames
+## WHAT
+Predict next frames using previous frames
 
-## why
-train on particle simulations and zooms out to predict higher order systems
+## WHY
+Train on particle simulations and zooms out to predict higher order systems
 
-## how
-#### learn (ai)
+## HOW (ANN)
+#### Learn (AI)
 - all data has same resolution
 - x,y resolution is same and fixed
-#### evolve (genetics) "survival of the fitest"
-- a fixed population of ai compete in rounds
-- each ai has an independent neural net
-- successfull ai replace unsuccessfull ones each round
+#### Evolve (Genetics) "survival of the fitest"
+- a fixed population of AI actors compete in rounds
+- each actor has an independent neural net
 - unsuccessfull ai are more likely to mutate their neural configuration
-#### think (society)
+#### Adapt (Society)
 - continuing to learn while predicting
 - use computed average results as expected
+- currently theoretical
+
+## HEH?
+#### Round
+1. learn: actors train and evaluate average success scores
+2. evolve: 
+- unsuccessfull actors may die
+- successfull actors duplicate
+- less success causes higher mutation chance
+3. population remains the same
+
+
+Nouns
+- Actor, Round
+Verbs
+- Learn, Evolve (die, duplicate, mutate)
