@@ -20,7 +20,7 @@ Train on particle simulations and zooms out to predict higher order systems
 - use computed average results as expected
 - currently theoretical
 
-## ROUNDS
+## RUN
 #### Training
 1. learn: actors train and evaluate average success scores
 2. evolve: actors adapt their neural nets
