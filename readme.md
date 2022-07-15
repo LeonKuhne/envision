@@ -12,23 +12,24 @@ Train on particle simulations and zooms out to predict higher order systems
 #### Evolve (Genetics) "survival of the fitest"
 - a fixed population of AI actors compete in rounds
 - each actor has an independent neural net
-- unsuccessfull ai are more likely to mutate their neural configuration
+- unsuccessfull actors may die
+- successfull actors may duplicate
+- less success causes higher mutation chance
 #### Adapt (Society)
 - continuing to learn while predicting
 - use computed average results as expected
 - currently theoretical
 
-## HEH?
-#### Round
+## ROUNDS
+#### Training
 1. learn: actors train and evaluate average success scores
-2. evolve: 
-- unsuccessfull actors may die
-- successfull actors duplicate
-- less success causes higher mutation chance
-3. population remains the same
+2. evolve: actors adapt their neural nets
+#### Running
+1. adapt: actors train and evaluate average success scores using other actors
+2. evolve: actors adapt their neural nets
 
-
-Nouns
+## Domain Model
+#### Nouns
 - Actor, Round
-Verbs
-- Learn, Evolve (die, duplicate, mutate)
+#### Verbs
+- Learn, Adapt, Evolve (die, duplicate, mutate)
